@@ -1,0 +1,22 @@
+[package]
+name = "cv-manager"
+version = "2.0.0"
+description = "CV Manager — Multilingual LaTeX CV & Job Tailoring Desktop App"
+authors = ["Youssef EL AIMARI"]
+license = "MIT"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.2", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = true

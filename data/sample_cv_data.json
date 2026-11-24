@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "languages": [
+      { "code": "en", "name": "English", "flag": "🇬🇧" },
+      { "code": "fr", "name": "Français", "flag": "🇫🇷" }
+    ],
+    "activeLanguage": "en",
+    "activePresetId": "preset-genai-llm",
+    "style": {
+      "fontSize": "11pt",
+      "marginCm": 1.5,
+      "mainColor": "#0D3880",
+      "darkGray": "#282828",
+      "sectionSpacingPt": 14,
+      "sectionAfterPt": 8,
+      "projectItemSepPt": 6,
+      "skillsItemSepPt": 3,
+      "expSpacingPt": 2
+    }
+  },
+  "profile": {
+    "name": "Alex MERCER",
+    "phone": "+1 (555) 234-5678",
+    "email": "alex.mercer@example.com",
+    "linkedinUrl": "https://linkedin.com/in/alexmercer",
+    "linkedinLabel": {
+      "en": "linkedin: alexmercer",
+      "fr": "Linkedin"
+    },
+    "githubUrl": "https://github.com/alexmercer",
+    "githubLabel": {
+      "en": "github: alexmercer",
+      "fr": "Github"
+    },
+    "location": {
+      "en": "Paris, France",
+      "fr": "Paris, France"
+    },
+    "title": {
+      "en": "AI & Machine Learning Engineer",
+      "fr": "Ingénieur Intelligence Artificielle & Machine Learning"
+    },
+    "summary": {
+      "en": "Master's graduate in Computer Science and Artificial Intelligence with strong experience in machine learning, deep learning, and software engineering. Proven track record of building and shipping production LLM applications, multi-step autonomous agents, hybrid RAG systems, and scalable data pipelines.",
+      "fr": "Ingénieur IA et Machine Learning diplômé d'un Master en Informatique et Intelligence Artificielle, avec une solide expertise en Machine Learning, Deep Learning, NLP et génie logiciel. Expérimenté dans la conception et la mise en production d'applications LLM, d'agents autonomes et de pipelines RAG hybrides."
+    }
+  },
+  "sections": [
+    {
+      "id": "summary",
+      "type": "summary",
+      "enabled": true,
+      "title": {
+        "en": "Professional Summary",
+        "fr": "Profil Professionnel"
+      }
+    },
+    {
+      "id": "education",
+      "type": "education",
+      "enabled": true,
+      "title": {
+        "en": "Education",
+        "fr": "Formation"
+      }
+    },
+    {
+      "id": "experience",
+      "type": "experience",
+      "enabled": true,
+      "title": {
+        "en": "Work Experience",
+        "fr": "Expérience Professionnelle"
+      }
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "enabled": true,
+      "title": {
+        "en": "Projects",
+        "fr": "Projets Techniques"
+      }
+    },
+    {
+      "id": "skills",
+      "type": "skills",
+      "enabled": true,
+      "title": {
+        "en": "Technical Skills",
+        "fr": "Compétences Techniques"
+      }
+    },
+    {
+      "id": "certifications",
+      "type": "certifications",
+      "enabled": true,
+      "title": {
+        "en": "Certifications & Training",
+        "fr": "Certifications et Formations"
+      }
+    },
+    {
+      "id": "languages",
+      "type": "languages",
+      "enabled": true,
+      "title": {
+        "en": "Languages",
+        "fr": "Langues"
+      }
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-master",
+      "enabled": true,
+      "degree": {
+        "en": "M.Sc. in Artificial Intelligence & Data Science",
+        "fr": "Master (Bac+5) en Intelligence Artificielle et Science des Données"
+      },
+      "dates": {
+        "en": "2024 -- 2026",
+        "fr": "2024 -- 2026"
+      },
+      "institution": {
+        "en": "University of Technology",
+        "fr": "Université de Technologie"
+      }
+    },
+    {
+      "id": "edu-bachelor",
+      "enabled": true,
+      "degree": {
+        "en": "B.Sc. in Computer Science & Software Engineering",
+        "fr": "Licence (Bac+3) en Informatique et Génie Logiciel"
+      },
+      "dates": {
+        "en": "2021 -- 2024",
+        "fr": "2021 -- 2024"
+      },
+      "institution": {
+        "en": "University of Technology",
+        "fr": "Université de Technologie"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "enabled": true,
+      "role": {
+        "en": "AI & LLM Engineer",
+        "fr": "Ingénieur IA & LLM"
+      },
+      "company": {
+        "en": "NovaAI Labs",
+        "fr": "NovaAI Labs"
+      },
+      "dates": {
+        "en": "Feb 2025 -- Present",
+        "fr": "Fév 2025 -- Présent"
+      },
+      "bullets": [
+        {
+          "id": "exp-1-b1",
+          "enabled": true,
+          "text": {
+            "en": "Architected and deployed multi-agent RAG workflows and semantic recommendation services with sub-second P95 latency.",
+            "fr": "Conception et déploiement d'architectures d'agents RAG et de services de recommandation sémantique à faible latence."
+          }
+        },
+        {
+          "id": "exp-1-b2",
+          "enabled": true,
+          "text": {
+            "en": "Built hybrid dense/BM25 retrieval pipelines using \\texttt{Python, LangChain, LangGraph, Qdrant, FastAPI, PostgreSQL, and Docker}.",
+            "fr": "Développement de pipelines de recherche vectorielle hybride via \\texttt{Python, LangChain, LangGraph, Qdrant, FastAPI, PostgreSQL et Docker}."
+          }
+        }
+      ]
+    },
+    {
+      "id": "exp-2",
+      "enabled": true,
+      "role": {
+        "en": "Full-Stack Software Engineer",
+        "fr": "Ingénieur Logiciel Full-Stack"
+      },
+      "company": {
+        "en": "CloudScale Systems",
+        "fr": "CloudScale Systems"
+      },
+      "dates": {
+        "en": "Jun 2023 -- Aug 2024",
+        "fr": "Juin 2023 -- Août 2024"
+      },
+      "bullets": [
+        {
+          "id": "exp-2-b1",
+          "enabled": true,
+          "text": {
+            "en": "Developed backend microservices, REST APIs, and real-time analytics dashboards using \\texttt{Python, FastAPI, React, TypeScript, Redis, and Docker}.",
+            "fr": "Développement de microservices backend, d'API REST et de tableaux de bord analytiques avec \\texttt{Python, FastAPI, React, TypeScript, Redis et Docker}."
+          }
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-sample-1",
+      "number": 1,
+      "enabled": true,
+      "profiles": ["GenAI / LLM", "ML / MLOps", "Backend / Systems"],
+      "name": {
+        "en": "Hybrid Enterprise RAG & Agent Platform",
+        "fr": "Plateforme RAG Hybride et Agents Autonomes"
+      },
+      "techStack": {
+        "en": "Python, FastAPI, LangChain, Qdrant, Tantivy BM25, Docker",
+        "fr": "Python, FastAPI, LangChain, Qdrant, Tantivy BM25, Docker"
+      },
+      "description": {
+        "en": "Architected a multi-tenant RAG knowledge platform combining dense vector embeddings and lexical BM25 retrieval with Reciprocal Rank Fusion (RRF), cross-encoder reranking, and streaming SSE citations.",
+        "fr": "Architecture d'une plateforme RAG multi-tenant combinant recherche vectorielle dense et recherche lexicale BM25 avec fusion RRF, reclassement cross-encoder et citations en streaming SSE."
+      },
+      "tags": ["python", "fastapi", "langchain", "qdrant", "rag", "bm25", "docker", "llm"]
+    },
+    {
+      "id": "proj-sample-2",
+      "number": 2,
+      "enabled": true,
+      "profiles": ["ML / MLOps", "Data Science", "Data Eng"],
+      "name": {
+        "en": "Real-Time Churn Prediction & MLOps Pipeline",
+        "fr": "Prédiction du Churn Client et Pipeline MLOps"
+      },
+      "techStack": {
+        "en": "Python, Scikit-Learn, XGBoost, Optuna, SHAP, MLflow, FastAPI, Prometheus",
+        "fr": "Python, Scikit-Learn, XGBoost, Optuna, SHAP, MLflow, FastAPI, Prometheus"
+      },
+      "description": {
+        "en": "Trained and tuned gradient-boosted classifiers with 100-trial Bayesian Optuna optimization, cost-sensitive thresholding, SHAP explainability, MLflow model registry, and automated Kolmogorov-Smirnov drift monitoring.",
+        "fr": "Entraînement et optimisation bayésienne Optuna de modèles XGBoost avec explicabilité SHAP, registre de modèles MLflow, API d'inférence FastAPI et détection statistique de dérive (data drift)."
+      },
+      "tags": ["python", "scikit-learn", "xgboost", "optuna", "shap", "mlflow", "fastapi", "prometheus", "mlops"]
+    },
+    {
+      "id": "proj-sample-3",
+      "number": 3,
+      "enabled": true,
+      "profiles": ["Data Eng", "Backend / Systems"],
+      "name": {
+        "en": "Streaming & Batch Medallion Data Warehouse",
+        "fr": "Data Warehouse Analytique Temps Réel et Batch"
+      },
+      "techStack": {
+        "en": "Python, Kafka, Airflow, dbt, DuckDB, PostgreSQL, Docker",
+        "fr": "Python, Kafka, Airflow, dbt, DuckDB, PostgreSQL, Docker"
+      },
+      "description": {
+        "en": "Built a Bronze/Silver/Gold data warehouse ingesting real-time Kafka event streams and historical batch files into DuckDB and PostgreSQL, orchestrated by Airflow DAGs with 60+ automated \\tech{dbt} data quality tests.",
+        "fr": "Conception d'un entrepôt de données Médaillon (Bronze/Silver/Gold) unifiant des flux Kafka temps réel et des fichiers batch sous DuckDB et PostgreSQL, orchestré par Airflow et \\tech{dbt}."
+      },
+      "tags": ["python", "kafka", "airflow", "dbt", "duckdb", "postgresql", "docker", "data engineering"]
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-langs",
+      "enabled": true,
+      "category": {
+        "en": "Programming Languages",
+        "fr": "Langages de Programmation"
+      },
+      "items": {
+        "en": "Python, Rust, SQL, TypeScript, JavaScript.",
+        "fr": "Python, Rust, SQL, TypeScript, JavaScript."
+      }
+    },
+    {
+      "id": "skill-llm",
+      "enabled": true,
+      "category": {
+        "en": "LLMs, Agents & RAG",
+        "fr": "IA Générative, LLMs & RAG"
+      },
+      "items": {
+        "en": "LangChain, LangGraph, llama.cpp, ONNX Runtime, Qdrant, FAISS, LanceDB.",
+        "fr": "LangChain, LangGraph, llama.cpp, ONNX Runtime, Qdrant, FAISS, LanceDB."
+      }
+    },
+    {
+      "id": "skill-ml",
+      "enabled": true,
+      "category": {
+        "en": "Machine Learning & Data Engineering",
+        "fr": "Machine Learning & Data Engineering"
+      },
+      "items": {
+        "en": "PyTorch, Scikit-Learn, XGBoost, MLflow, Airflow, dbt, Kafka, DuckDB, PostgreSQL, FastAPI, Docker.",
+        "fr": "PyTorch, Scikit-Learn, XGBoost, MLflow, Airflow, dbt, Kafka, DuckDB, PostgreSQL, FastAPI, Docker."
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "enabled": true,
+      "title": {
+        "en": "AWS Certified Machine Learning -- Specialty",
+        "fr": "AWS Certified Machine Learning -- Specialty"
+      },
+      "issuer": {
+        "en": "Amazon Web Services",
+        "fr": "Amazon Web Services"
+      }
+    }
+  ],
+  "spokenLanguages": [
+    {
+      "id": "lang-en",
+      "enabled": true,
+      "language": {
+        "en": "English",
+        "fr": "Anglais"
+      },
+      "level": {
+        "en": "Fluent / Professional (C1)",
+        "fr": "Courant / Professionnel (C1)"
+      }
+    },
+    {
+      "id": "lang-fr",
+      "enabled": true,
+      "language": {
+        "en": "French",
+        "fr": "Français"
+      },
+      "level": {
+        "en": "Native / Bilingual (C2)",
+        "fr": "Langue maternelle / Courant (C2)"
+      }
+    }
+  ],
+  "customSections": {},
+  "jobPresets": [
+    {
+      "id": "preset-genai-llm",
+      "name": "GenAI / LLM",
+      "shortName": "GenAI / LLM",
+      "company": "",
+      "jobDescription": "Generative AI, LLMs, Agents, Hybrid RAG, LangChain, Qdrant, FastAPI, Docker.",
+      "language": "en",
+      "customTitle": {
+        "en": "AI & LLM Engineer",
+        "fr": "Ingénieur IA Générative & LLMs"
+      },
+      "customSummary": {
+        "en": "",
+        "fr": ""
+      },
+      "enabledProjects": ["proj-sample-1", "proj-sample-2", "proj-sample-3"],
+      "enabledExperiences": ["exp-1", "exp-2"],
+      "enabledCertifications": ["cert-1"]
+    },
+    {
+      "id": "preset-ml-mlops",
+      "name": "ML / MLOps",
+      "shortName": "ML / MLOps",
+      "company": "",
+      "jobDescription": "Machine Learning, MLOps, XGBoost, Scikit-Learn, Optuna, SHAP, MLflow, FastAPI, Prometheus.",
+      "language": "en",
+      "customTitle": {
+        "en": "Machine Learning & MLOps Engineer",
+        "fr": "Ingénieur Machine Learning & MLOps"
+      },
+      "customSummary": {
+        "en": "",
+        "fr": ""
+      },
+      "enabledProjects": ["proj-sample-2", "proj-sample-1", "proj-sample-3"],
+      "enabledExperiences": ["exp-1", "exp-2"],
+      "enabledCertifications": ["cert-1"]
+    }
+  ]
+}

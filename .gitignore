@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+bin/tectonic
+bin/tectonic.exe
+data/cv_data.json
+src-tauri/target/
+*.tex
+*.pdf
