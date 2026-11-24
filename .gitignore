@@ -1,9 +1,34 @@
+# Dependencies & build outputs
 node_modules/
 dist/
 build/
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Standalone compiler binaries
+bin/
 bin/tectonic
 bin/tectonic.exe
+
+# Active user CV data (keep data/sample_cv_data.json tracked)
 data/cv_data.json
-src-tauri/target/
+data/*.tmp
+
+# Generated LaTeX & PDF files
 *.tex
 *.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS, Editor & Tooling caches
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.local
+*.tsbuildinfo
